@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "New Tab",
+  "version": "1.0",
+  "description": "New Tab replaces your homepage and new tab page featuring search forms, direct bookmarks and daily quotes.",
+  "icons": { "128": "icon.png" },
+  "chrome_url_overrides" : {
+    "newtab": "index.html"
+  }
+}
